@@ -1,0 +1,33 @@
+2024-01-01 16:16:25,549 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2024-01-01 16:16:29,051 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2024-01-01 16:16:40,834 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:16:43,366 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:17:23,264 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:17:44,522 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2024-01-01 16:17:46,556 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2024-01-01 16:17:49,332 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2024-01-01 16:19:54,264 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2024-01-01 16:19:56,886 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2024-01-01 16:19:58,584 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:20:01,952 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:22:17,143 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:22:35,821 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2024-01-01 16:22:39,567 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2024-01-01 16:22:43,001 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:22:46,488 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:22:54,493 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:22:57,423 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:23:01,205 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:23:02,502 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:25:36,868 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:27:36,686 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:33:40,428 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2024-01-01 16:34:19,521 * INFO * com.cars.cars.Controller.UserController * SaveCustomer * Admin saved some process about customers
+2024-01-01 16:34:19,860 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:35:17,310 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2024-01-01 16:35:20,642 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2024-01-01 16:35:25,047 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2024-01-01 16:36:02,887 * INFO * com.cars.cars.Controller.UserController * UpdateCustomer * Admin trying to update a customer info
+2024-01-01 16:36:07,509 * INFO * com.cars.cars.Controller.UserController * SaveCustomer * Admin saved some process about customers
+2024-01-01 16:36:07,524 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2024-01-01 16:36:09,254 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin : Add a new car</title>
+    <link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+    <link th:href="@{/Styles/Customers.css}" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/admin/vehicles}">Cars</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div class="container">
+    <div class="sub-container">
+        <div class="confirm">
+            <span>New Car</span>
+        </div>
+        <div class="element-customer">
+            <form th:action="@{/save-cars}" th:object="${car}"  method="post">
+                <input type="hidden"  th:field="*{carId}" placeholder="First Name" />
+                <label>Car Name:<input type="text"  th:field="*{carName}"placeholder="Name" /></label>
+                <label>Car Model:<input type="text"  th:field="*{carModel}" placeholder="Model" /></label>
+                <label>Car Price:<input type="text"  th:field="*{carPrice}" placeholder="Price Day" /></label>
+                <label>Image URL:<input type="text"  th:field="*{carImage}" placeholder="Just URL" /></label>
+                <input type="hidden" th:field="*{carStatus}" value="True" placeholder="Status" />
+
+                <input class="confirm-button" type="submit" value="Confirm" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+</body>

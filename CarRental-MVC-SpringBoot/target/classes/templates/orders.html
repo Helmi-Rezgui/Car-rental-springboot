@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Orders </title>
+</head>
+<link th:href="@{Styles/Orders.css}" rel="stylesheet">
+
+<body>
+<header  class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/cars}">Home</a></li>
+        <li><a th:href="@{/orders(customerId=1)}">Orders</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div th:each="booking : ${bookingList}">
+    <div class="item-main-container">
+        <div class="item-container">
+            <div class="image-div">
+                <img class="image" th:src="${booking.getImage()}" alt="Image"/>
+            </div>
+            <div class="details">
+                <strong>Booking Id : <span th:text="${booking.getBookingId()}"></span> </strong>
+                <strong>Car Id : <span th:text="${booking.getCarId()}"></span> </strong>
+                <strong>Customer Id : <span th:text="${booking.getCustomerId()}"></span> </strong>
+                <strong>Date From : <span th:text="${booking.getBookingDateFrom()}"></span> </strong>
+                <strong>Date To : <span th:text="${booking.getBookingDateTo()}"></span> </strong>
+                <strong>Price : <span th:text="${booking.getPriceDay()}+ ' ' +TND"></span> </strong>
+                <strong>Total Price : <span th:text="${booking.getTotalPrice()}+ ' ' +TND"></span> </strong>
+
+                <div class="rent-div">
+                    <a class="rent" th:href="@{/update-booking(bookingId=${booking.getBookingId()})}">Update</a>
+                    <form th:action="@{/return-car(bookingId=${booking.getBookingId()},carId=${booking.getCarId()})}" th:object="${booking}"  method="post">
+                        <button class="rent" type="submit" >Return</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+</body>
+
+
+</html>

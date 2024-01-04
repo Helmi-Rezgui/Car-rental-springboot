@@ -1,0 +1,162 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height:300px;
+    border: 1px solid #0093E9;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 25px;
+    margin-top: 80px;
+    height: auto;
+
+}
+
+.list-customers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #26a0da;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px 25px 0 0;
+}
+
+.add-car{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    width: 90%;
+}
+
+.add-car-button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #0093E9;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    text-transform: uppercase;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-car-button:hover {
+    color: black;
+    background-color: #26a0da;
+    transform: scale(1.1);
+}
+.table{
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+thead,
+tbody,
+tr,
+td,
+th{
+    border: 1px solid #26a0da;
+}
+tbody,
+td{
+    text-align: center;
+
+}
+
+td,
+th{
+    padding: 10px;
+}
+
+td a{
+    text-decoration: none;
+    color: black;
+    padding: 5px ;
+    border-radius: 10px;
+    background-color:#26a0da;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+td a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.sub-container-update{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.confirm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #26a0da;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.element-customer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+form input{
+    margin: 15px;
+    outline: none;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.confirm-button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.confirm-button:hover{
+    color: black;
+    background-color: #26a0da;
+}

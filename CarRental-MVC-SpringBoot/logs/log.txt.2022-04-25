@@ -1,0 +1,176 @@
+2022-04-25 09:38:36,375 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:03:37,058 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:03:37,474 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:03:46,425 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:03:54,903 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:03:56,510 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:04:06,660 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:04:35,440 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin added a new car
+2022-04-25 10:05:19,907 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:08:15,876 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:08:24,400 * INFO * com.cars.cars.Controller.UserController * UpdateCarInfo * Admin trying to update a car
+2022-04-25 10:08:31,314 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saving some process about cars
+2022-04-25 10:08:31,346 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:08:53,655 * INFO * com.cars.cars.Controller.UserController * DeleteCar * Admin trying to delete a car with info  Volvo V70 2016
+2022-04-25 10:08:53,671 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:06,258 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:09,479 * INFO * com.cars.cars.Controller.UserController * UpdateCarInfo * Admin trying to update a car
+2022-04-25 10:10:18,494 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 10:10:18,510 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:25,045 * INFO * com.cars.cars.Controller.UserController * DeleteCar * Admin deleted a car with info  Volvo V70 2016
+2022-04-25 10:10:25,056 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:36,790 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 10:10:47,995 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 10:10:48,003 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:55,906 * INFO * com.cars.cars.Controller.UserController * DeleteCar * Admin deleted a car with info  ss aA
+2022-04-25 10:10:55,922 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:10:57,757 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:11:06,347 * INFO * com.cars.cars.Controller.UserController * UpdateCustomer * Admin trying to update a customer info
+2022-04-25 10:11:10,272 * INFO * com.cars.cars.Controller.UserController * SaveCustomer * Admin saved some process about customers
+2022-04-25 10:11:10,296 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:11:12,017 * INFO * com.cars.cars.Controller.UserController * AddCustomer * Admin trying to add  a new customer
+2022-04-25 10:11:29,118 * INFO * com.cars.cars.Controller.UserController * SaveCustomer * Admin saved some process about customers
+2022-04-25 10:11:29,134 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:11:36,246 * INFO * com.cars.cars.Controller.UserController * DeleteCustomer * Admin deleted a customer
+2022-04-25 10:11:36,262 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:11:48,533 * INFO * com.cars.cars.Controller.UserController * DeleteCustomer * Admin deleted a customer
+2022-04-25 10:11:48,549 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:11:57,421 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:12:00,461 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:12:03,846 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:05,372 * INFO * com.cars.cars.Controller.UserController * BookingCar * Some user trying to rent a car
+2022-04-25 10:12:11,682 * INFO * com.cars.cars.Controller.UserController * SaveBooking * User rented a car
+2022-04-25 10:12:11,698 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:13,323 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:12:17,846 * INFO * com.cars.cars.Controller.UserController * UpdateBooking * User trying to update booking
+2022-04-25 10:12:28,737 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:32,285 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:12:37,198 * INFO * com.cars.cars.Controller.UserController * ReturnCar * User returned a car
+2022-04-25 10:12:37,214 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:40,763 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:55,832 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:12:56,812 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:13:00,647 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:13:04,939 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:13:08,434 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:13:11,689 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:13:30,522 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:16:38,247 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:16:50,888 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:16:54,808 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 10:16:56,906 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:16:59,201 * INFO * com.cars.cars.Controller.UserController * UpdateCarInfo * Admin trying to update a car
+2022-04-25 10:17:00,420 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:17:01,862 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:17:05,989 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:17:10,835 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:17:19,672 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:17:27,985 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:17:33,002 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:17:34,113 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:17:35,516 * INFO * com.cars.cars.Controller.UserController * BookingCar * Some user trying to rent a car
+2022-04-25 10:17:44,461 * INFO * com.cars.cars.Controller.UserController * SaveBooking * User rented a car
+2022-04-25 10:17:44,477 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:17:46,141 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:17:51,687 * INFO * com.cars.cars.Controller.UserController * UpdateBooking * User trying to update booking
+2022-04-25 10:17:53,282 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 10:17:54,670 * INFO * com.cars.cars.Controller.UserController * ReturnCar * User returned a car
+2022-04-25 10:17:54,678 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:18:55,438 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:18:55,628 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:19:00,348 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:19:04,269 * INFO * com.cars.cars.Controller.UserController * UpdateCarInfo * Admin trying to update a car
+2022-04-25 10:19:06,063 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:19:09,326 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 10:19:11,036 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 10:19:13,614 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 10:19:29,319 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 10:19:32,805 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 10:19:37,597 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 13:49:30,912 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:49:31,180 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:49:35,789 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:49:37,742 * INFO * com.cars.cars.Controller.UserController * BookingCar * Some user trying to rent a car
+2022-04-25 13:49:44,852 * INFO * com.cars.cars.Controller.UserController * SaveBooking * User rented a car
+2022-04-25 13:49:44,868 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:49:47,089 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 13:49:48,863 * INFO * com.cars.cars.Controller.UserController * UpdateBooking * User trying to update booking
+2022-04-25 13:49:55,908 * INFO * com.cars.cars.Controller.UserController * SaveUpdate * User updated booking
+2022-04-25 13:49:55,924 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:49:58,341 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 13:50:00,348 * INFO * com.cars.cars.Controller.UserController * UpdateBooking * User trying to update booking
+2022-04-25 13:50:10,606 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 13:51:09,296 * INFO * com.cars.cars.Controller.UserController * GetAllCustomers * Admin viewing customers
+2022-04-25 13:51:18,283 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:51:20,207 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:51:26,444 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 13:51:28,503 * INFO * com.cars.cars.Controller.UserController * ReturnCar * User returned a car
+2022-04-25 13:51:28,519 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:57:23,984 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:58:33,465 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:58:35,626 * INFO * com.cars.cars.Controller.UserController * BookingCar * Some user trying to rent a car
+2022-04-25 13:58:40,323 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 13:58:42,548 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 13:58:51,119 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 13:58:51,135 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 13:58:55,041 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:58:56,622 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:59:09,659 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:10,848 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:59:14,059 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:15,681 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 13:59:23,198 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:24,532 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 13:59:26,172 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:28,538 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:29,077 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 13:59:36,081 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:00:08,684 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:00:16,265 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:00:18,290 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:00:28,064 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:00:28,088 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:00:31,213 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:00:32,526 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:01:48,356 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:01:49,736 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:01:59,398 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:01:59,414 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:02:02,157 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:02:03,645 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:03:36,391 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:03:38,207 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:03:46,271 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:03:46,295 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:03:50,734 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:03:52,945 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:05:27,708 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:05:29,664 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:05:35,827 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:05:35,851 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:05:39,694 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:05:41,047 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:06:49,389 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:06:57,485 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:06:59,030 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:07:03,888 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:07:03,912 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:07:08,668 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:07:53,113 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:07:55,093 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:08:00,517 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:08:00,533 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:08:03,252 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:08:03,505 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-04-25 14:08:05,032 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:09:11,929 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:09:13,637 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:09:21,099 * INFO * com.cars.cars.Controller.UserController * SaveCar * Admin saved some process about cars
+2022-04-25 14:09:21,123 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:09:26,485 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:12:07,745 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:12:12,012 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-04-25 14:12:14,186 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-04-25 14:12:21,981 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars
+2022-04-25 14:12:33,204 * INFO * com.cars.cars.Controller.UserController * AddCar * Admin trying to add a new car
+2022-04-25 14:12:38,317 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars

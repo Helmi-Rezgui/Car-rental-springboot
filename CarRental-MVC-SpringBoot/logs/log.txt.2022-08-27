@@ -1,0 +1,11 @@
+2022-05-03 18:02:06,902 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-05-03 18:02:12,063 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-05-03 18:02:18,369 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-05-03 18:02:23,343 * INFO * com.cars.cars.Controller.UserController * BookingCar * Some user trying to rent a car
+2022-05-03 18:02:28,879 * INFO * com.cars.cars.Controller.UserController * SaveBooking * User rented a car
+2022-05-03 18:02:28,890 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-05-03 18:02:34,833 * INFO * com.cars.cars.Controller.UserController * GetMyOrders * User viewing orders
+2022-05-03 18:02:37,354 * INFO * com.cars.cars.Controller.UserController * ReturnCar * User returned a car
+2022-05-03 18:02:37,370 * INFO * com.cars.cars.Controller.UserController * GetAllCars * User viewing available cars
+2022-05-03 18:02:39,866 * INFO * com.cars.cars.Controller.UserController * GetHomeView * Someone in
+2022-05-03 18:02:46,525 * INFO * com.cars.cars.Controller.UserController * GetAllCarsForAdmin * Admin viewing cars

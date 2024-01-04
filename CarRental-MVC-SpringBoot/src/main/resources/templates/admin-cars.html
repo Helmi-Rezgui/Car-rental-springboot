@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin: All Cars</title>
+  <link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+  <link th:href="@{/Styles/Customers.css}" rel="stylesheet">
+
+
+</head>
+<body>
+<header class='header'>
+  <ul class='nav'>
+    <li><a th:href="@{/admin/customers}">Customers</a></li>
+  </ul>
+  <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div class="container">
+  <div class="sub-container">
+    <div class="list-customers">
+      <span>Cars List</span>
+    </div>
+    <div class="add-car">
+      <a class="add-car-button" th:href="@{/admin/add-vehicle}">Add New Car</a>
+    </div>
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Model</th>
+        <th>Price</th>
+        <th>Status</th>
+        <th class="actions">Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="car: ${carList}">
+        <td th:text="${car.getCarId()}" ></td>
+        <td th:text="${car.getCarName()} "></td>
+        <td th:text="${car.getCarModel()}"></td>
+        <td th:text="${car.getCarPrice()}"></td>
+        <td th:text="${car.isCarStatus()}"></td>
+
+        <td>
+          <a th:href="@{/admin/vehicle(carId = ${car.getCarId()})}">Update</a>
+          <a th:href="@{/delete-cars(carId = ${car.getCarId()})}">Delete</a>
+        </td>
+
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</div>
+
+<footer >
+  <span>Cars Booking</span>
+</footer>
+</body>
+</html>

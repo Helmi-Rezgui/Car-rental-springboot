@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Select One</title>
+    <link th:href="@{Styles/Home.css}" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="sub-container">
+        <div class="select-one">
+            <span>Select One</span>
+        </div>
+            <div class="content">
+                <a th:href="@{/cars}">User</a>
+                <a th:href="@{/admin/vehicles}">Admin</a>
+            </div>
+    </div>
+</div>
+</body>
+</html>

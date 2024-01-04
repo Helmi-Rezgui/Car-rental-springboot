@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin : Customers</title>
+    <link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+    <link th:href="@{/Styles/Customers.css}" rel="stylesheet">
+
+
+</head>
+<body>
+<header class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/admin/vehicles}">Cars</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div class="container">
+    <div class="sub-container">
+        <div class="list-customers">
+            <span>Customers List</span>
+        </div>
+        <div class="add-car">
+            <a class="add-car-button" th:href="@{/admin/new/customer}">Add New Customer</a>
+        </div>
+        <table class="table">
+<thead>
+<tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Actions</th>
+</tr>
+</thead>
+            <tbody>
+            <tr th:each="customer: ${customerList}">
+                <td th:text="${customer.getCustomerFirstName()}" ></td>
+                <td th:text="${customer.getCustomerAddress()} "></td>
+                <td th:text="${customer.getCustomerEmail()}"></td>
+                <td th:text="${customer.getCustomerPhone()}"></td>
+                <td>
+                    <a th:href="@{/admin/customer/customer-id(customerId=${customer.getCustomerId()})}">Update</a>
+                    <a th:href="@{/delete/customer(customerId=${customer.getCustomerId()})}">Delete</a>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+</body>
+</html>

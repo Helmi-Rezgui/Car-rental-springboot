@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Available Cars</title>
+    <link th:href="@{Styles/Cars.css}" rel="stylesheet">
+</head>
+<body>
+<header class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/cars}">Home</a></li>
+        <li><a  th:href="@{/orders(customerId=1)}">Orders</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div th:each="car : ${carList}">
+<div class="item-main-container">
+    <div class="item-container">
+        <div class="image-div">
+            <img class="image" th:src="${car.getCarImage()}" alt="Image"/>
+        </div>
+        <div class="details">
+            <strong>Id : <span th:text="${car.getCarId()}"></span> </strong>
+            <strong>Name : <span th:text="${car.getCarName()}"></span> </strong>
+            <strong>Model : <span th:text="${car.getCarModel()}"></span> </strong>
+            <strong>Price : <span th:text="${car.getCarPrice()}+ ' ' +TND"></span> </strong>
+            <div class="rent-div">
+                <a class="rent" th:href="@{/bookingform(carId=${car.getCarId()})}">Rent it</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+</body>
+
+
+</html>

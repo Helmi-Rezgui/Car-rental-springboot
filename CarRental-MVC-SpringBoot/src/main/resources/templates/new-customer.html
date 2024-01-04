@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin : add a new customer</title>
+    <link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+    <link th:href="@{/Styles/Customers.css}" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/admin/customers}">Cars</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div class="container">
+    <div class="sub-container">
+        <div class="confirm">
+            <span>New Customer</span>
+        </div>
+        <div class="element-customer">
+            <form th:action="@{/save-customer}" th:object="${customer}"  method="post">
+                <label>First Name:<input type="text"  th:field="*{customerFirstName}" placeholder="First Name" /></label>
+                <label>Last Name:<input type="text"  th:field="*{customerLastName}"placeholder="Last Name" /></label>
+                <label>Address:<input type="text"  th:field="*{customerAddress}" placeholder="Email" /></label>
+                <label>Email:<input type="text"  th:field="*{customerEmail}" placeholder="Address" /></label>
+                <label>Phone:<input type="text"  th:field="*{customerPhone}" placeholder="Phone" /></label>
+                <input type="hidden"  th:field="*{customerId}" placeholder="Id" />
+
+
+
+                <input class="confirm-button" type="submit" value="Add Customer" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+</body>

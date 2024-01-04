@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Your Booking</title>
+    <link th:href="@{/Styles/booking-form.css}" rel="stylesheet">
+    <link th:href="@{/Styles/Cars.css}" rel="stylesheet">
+
+</head>
+<body>
+<header class='header'>
+    <ul class='nav'>
+        <li><a th:href="@{/cars}">Home</a></li>
+        <li><a th:href="@{/orders(customerId=1)}">Orders</a></li>
+    </ul>
+    <a th:href="@{/logout}" class="right">Logout</a>
+</header>
+
+<div class="container">
+    <div class="sub-container-update">
+        <div class="confirm-update">
+            <span>Update Your Order</span>
+        </div>
+        <div class="element">
+            <form th:action="@{/save-update(bookingId=${booking.getBookingId()})}" th:object="${booking}"  method="post">
+                <input type="hidden"  th:value="*{bookingId}" />
+                <input type="hidden"  th:value="*{carId}" />
+                <input type="date" id="datefrom" th:field="*{bookingDateFrom}" placeholder="From" />
+                <input type="date" id="dateto" th:field="*{bookingDateTo}" placeholder="To" />
+                <input class="confirm-button" type="submit" value="Update" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer >
+    <span>Cars Booking</span>
+</footer>
+
+</body>
+</html>
